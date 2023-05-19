@@ -8,14 +8,7 @@ function Banner() {
     <div className="banner">
          <img src={BG} alt="BG" className="BG"  /> 
          <img src={image1} alt="image1" className="image1"  />
-            <div className="container">
-                <div className="banner-con">
-                    <div className="bg-container">
-                             
-                    </div>
-                        
-                </div>
-        </div>
+
     </div>
 
   )
