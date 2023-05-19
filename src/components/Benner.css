@@ -1,0 +1,17 @@
+.banner{
+    position: absolute;
+
+
+}
+.BG {
+    max-width: 1200px; /* กำหนดขนาดสูงสุดขององค์ประกอบเป็น 1200px */
+  margin: 0 auto; /* จัดตำแหน่งกลางตามแนวนอน */
+  }
+  
+.image1 {
+    position: absolute;
+width: 472px;
+height: 370px;
+left: 728px;
+top: 168px;
+  }
