@@ -7,13 +7,20 @@
     padding: 5rem 0;
 }
 .content-l img {
-    width: 25vw;
-    height: 40vh;
-    border-radius: 10px;
+    position: absolute;
+    margin: 0 auto;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50px;
+    left: 800px;
+    top: 700px;
 }
 .content-r {
-    padding: 2rem;
-    text-align: left;
+    position: absolute;
+    margin: 0 auto;
+    text-align: justify; /* จัดตำแหน่งข้อความที่มุมขวา */
+    float: justify;
+    top: 700px;
 }
 
 @media screen and (max-width: 480px) {
