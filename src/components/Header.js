@@ -14,19 +14,20 @@ function Header() {
                     </div>
                         <ul className="menu">
                             <li className="menu-link">
-                                <a href='#'>About</a>
+                                <a href='#'><b>About</b></a>
                             </li>
                             <li className="menu-link">
-                                <a href='#'>Pricing</a>
+                                <a href='#'><b>Pricing</b></a>
                             </li>
                             <li className="menu-link">
-                                <a href='#'>Contact Us</a>
+                                <a href='#'><b>Contact Us</b></a>
                             </li>
                             <li className="menu-link">
-                                <a href='#'>Login</a>
+                                <a href='#'><b>Login</b></a>
                             </li>
                             <li className="menu-link">
-                                <a href='#'>Stsrt free trial</a>
+                                <a href='#'><b>Stsrt free trial</b></a>
+                                
                             </li>
                         </ul>
                 </div>

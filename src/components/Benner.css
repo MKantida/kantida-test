@@ -1,17 +1,108 @@
-.banner{
-    position: absolute;
+.banner1{
+  position: absolute;
+  background-color: #ffffff00;
 
 
 }
+
+.banner1{
+    position: absolute;
+}
 .BG {
-    max-width: 100%;
-  margin: 0 auto;
+    background-image: 'url (${background-image})';
+    background-position: 'center';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+    width: 100vw;
+    height: 70vh;
   }
   
 .image1 {
     position: absolute;
-width: 472px;
-height: 370px;
-left: 728px;
-top: 168px;
+    margin: 0 auto;
+    width: 30vw;
+    height: 50vh;
+    left: 800px;
+    top: 50px;
+    
+  } 
+
+.text-h1 {
+    position: absolute;
+    top: 100px;
+    text-align: justify; /* จัดตำแหน่งข้อความที่มุมขวา */
+    float: justify;
+    left: 200px;
+    line-height: 0.2;
   }
+
+.text-h1 h1 {
+    font-size: 60px; /* กำหนดขนาดตัวหนังสือให้เป็น 24px */
+  }
+  
+.text-h3 {
+    position: absolute;
+    top: 250px;
+    text-align: justify; /* จัดตำแหน่งข้อความที่มุมขวา */
+    float: justify;
+    left: 200px;
+    line-height: 0.2;
+  }
+.text-h3 h3 {
+    font-size: 20px; /* กำหนดขนาดตัวหนังสือให้เป็น 24px */
+  }
+
+.button-b1 {
+    position: absolute;
+    top: 350px;
+    text-align: justify; /* จัดตำแหน่งข้อความที่มุมขวา */
+    float: justify;
+    left: 200px;
+    line-height: 0.2;
+  }
+
+  .button-b1 button {
+    display: inline-block;
+    border-radius: 100px;
+    border: 2px solid #5f0096;
+    padding: 10px 20px;
+    background-color: #8227fa;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+  }
+
+/*.button-b1 button:hover {
+    background-color: #ffffff;
+    color: #5f0096;
+  }*/
+
+  
+  .button-b2 {
+    position: absolute;
+    top: 350px;
+    text-align: right; /* จัดตำแหน่งข้อความที่มุมขวา */
+    float: right;
+    left: 370px;
+    line-height: 0.2;
+  }
+
+.button-b2 button {
+    display: inline-block;
+    border-radius: 100px;
+    border: 2px solid #5f0096;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #5f0096;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+  }
+
+/*.button-b2 button:hover {
+    background-color: #8227fa;
+    color: #ffffff;
+  }*/
