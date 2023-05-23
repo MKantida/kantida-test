@@ -26,7 +26,8 @@ function Header() {
                                 <a href='#'><b>Login</b></a>
                             </li>
                             <li className="menu-link">
-                                <a href='#'><b>Stsrt free trial</b></a>
+                                 <a href='#'><button className="button"><b>Stsrt free trial</b></button></a>
+
                                 
                             </li>
                         </ul>

@@ -1,0 +1,80 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.banner-bg {
+    height: 500px;
+    background: url("../img/BG.png")   no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.banner-con {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    height: 500px;
+}
+
+.image1 {
+    position: absolute;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 50vh;
+    left: 800px;
+    margin-top: 4rem;
+    }
+
+.banner-text {
+    max-width: 500px;
+    position: absolute;
+    margin-top: 4rem;
+    text-align: justify; /* จัดตำแหน่งข้อความที่มุมขวา */
+    float: justify;
+    left: 200px;
+    line-height: 1.2;
+}
+.banner-btn1 {
+    background: #8227fa;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 100px;
+    text-transform: capitalize;
+    
+}
+.banner-btn1:hover {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.banner-btn2 {
+    background: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #5f0096;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 100px;
+    text-transform: capitalize;
+}
+.banner-btn2:hover {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .banner-text {
+        padding: 0 2rem;
+    }
+}
