@@ -1,7 +1,8 @@
 import React from 'react'
 import "./Benner01.css"
-import image1 from '../img/image 1.png'
+import image from '../img/image 1.png'
 import BG from '../img/BG.png'
+import { BsStars } from "react-icons/bs"
 
 let bannerData = {
     title: "Your data with",
@@ -11,26 +12,26 @@ let bannerData = {
 
 function Benner01() {
     return (
-        <div className="banner-bg">
+        <div className="container">
+            
+            <section className="content-con">
 
-            <div className="container">
-
-                <div className="banner-con">
-                    <div className="image1">
-                        <img src={image1} alt="image1"/>
-                    </div>
-                    
-                    <div className="banner-text">
-                        <h1>{bannerData.title}</h1>
-                        <h1>{bannerData.title1}</h1>
+                <div className="content-r">
+                    <button className="button"><b><BsStars /> v3.1 released. <a href='#'>Learn more</a></b></button>
+                        <h2>Some title</h2>
                         <p>
-                            {bannerData.desc}
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat minima sapiente labore consectetur nam assumenda excepturi, doloribus placeat perspiciatis neque vero a, natus aperiam ullam ipsam. Quis, sequi facere?
                         </p>
-                        <a href="#" className="banner-btn1">Stsrt free trial</a>
-                        <a href="#" className="banner-btn2">Learn More</a>
-                    </div>
+                        <a href='#'><button className="button1">Stsrt free trial</button></a>
+                        <a href='#'><button className="button2">Stsrt free trial</button></a>
                 </div>
-            </div>
+                <div className="content-l1">
+                    <img src={image} alt="image"/>
+                </div>
+
+
+            </section>
+            
         </div>
     )
 }

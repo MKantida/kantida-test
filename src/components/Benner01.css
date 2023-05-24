@@ -2,13 +2,33 @@
     max-width: 960px;
     margin: 0 auto;
 }
+.content-con {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content-con:first-child, .content-con:last-child {
+    padding: 5rem 0;
+}
+.content-l1 img {
+    max-width: 500px;
+    max-height: 50vh;
+    border-radius: 10px;
 
+}
+
+.content-r {
+    padding: 2rem;
+    text-align: left;
+}
 .banner-bg {
     height: 500px;
-    background: url("../img/BG.png")   no-repeat;
+    max-width: 960px;
+    /*background: url("../img/BG.png")   no-repeat;*/
     background-size: cover;
     overflow: hidden;
 }
+
 
 
 .banner-con {
@@ -16,16 +36,16 @@
     align-items: right;
     justify-content: right;
     height: 500px;
-}
+    justify-content: space-between;
 
-.image1 {
+}
+.BG {
     position: absolute;
-    margin: 0 auto;
-    max-width: 500px;
-    max-height: 50vh;
-    left: 800px;
-    margin-top: 4rem;
+    overflow: hidden;
+
     }
+
+
 
 .banner-text {
     max-width: 500px;
@@ -36,42 +56,41 @@
     left: 200px;
     line-height: 1.2;
 }
-.banner-btn1 {
-    background: #8227fa;
+.button1 {
     display: inline-block;
-    padding: .5rem 1rem;
-    text-decoration: none;
+    border-radius: 100px;
+    border: 2px solid #5f009600;
+    padding: 10px 20px;
+    background-color: #8227fa;
     color: #ffffff;
-    border: 2px solid transparent;
-    transition: 0.3s;
-    margin-top: 1rem;
-    border-radius: 100px;
-    text-transform: capitalize;
-    
-}
-.banner-btn1:hover {
-    border: 2px solid #fff;
-    background: transparent;
-    color: #fff;
-}
-
-.banner-btn2 {
-    background: #fff;
-    display: inline-block;
-    padding: .5rem 1rem;
+    text-align: center;
     text-decoration: none;
-    color: #5f0096;
-    border: 2px solid transparent;
-    transition: 0.3s;
-    margin-top: 1rem;
+  }
+
+  .button1:hover {
+    border: 2px solid #0654fa;
+    background-color: #6693f5;
+    color: #ffffff;
+  }
+
+
+  .button2 {
+    display: inline-block;
     border-radius: 100px;
-    text-transform: capitalize;
-}
-.banner-btn2:hover {
-    border: 2px solid #fff;
-    background: transparent;
-    color: #fff;
-}
+    border: 2px solid #5f0096;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #5f0096;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+.button2:hover {
+    border: 2px solid #6693f5;
+    background-color: #ffffff;
+    color: #0654fa;
+  }
 
 @media screen and (max-width: 480px) {
     .banner-text {
