@@ -10,7 +10,7 @@ function Header() {
             <div className="container-h">
                 <div className="header-con">
                     <div className="logo-container">
-                            <img src={Logo} alt="Logo" className="Logo" />   
+                            <img src={Logo} alt="Logo"  />   
                     </div>
                         <ul className="menu">
                             <li className="menu-link">
