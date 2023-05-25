@@ -1,18 +1,19 @@
 .header{
-    background-color: rgb(252, 0, 0);
-    height: 70px;
-   
-}
-
-.container {
     max-width: 960px;
     margin: 0 auto;
 }
 
+.container-h {
+    max-width: 100vw;
+    margin: 0 auto;
+
+}
+
 .header-con {
+    background-color: rgb(252, 0, 0);
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 70px;
     align-items: center;
 }
 

@@ -9,9 +9,10 @@ function Content01() {
         <div className="container">
             <section className="content-con">
                 <div className="content-l">
-                    <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2550&q=80" alt=""/>
+                    <img src={Group21} alt=""/>
                 </div>
                 <div className="content-r">
+                <button className="content-button"><b><BsStars /> v3.1 released. <a href='https://github.com/ohmiler/react-landing-page/blob/main/src/components/Content.css'>Learn more</a></b></button>
                     <h2>Some title</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat minima sapiente labore consectetur nam assumenda excepturi, doloribus placeat perspiciatis neque vero a, natus aperiam ullam ipsam. Quis, sequi facere?
@@ -19,20 +20,13 @@ function Content01() {
                 </div>
             </section>
             <section className="content-con">
-                <div className="content-l">
-                <img src={Group21} alt="Group21" className="Group21"/>
-                </div>
-                <div className="content-r">
-                    <button className="button"><b><BsStars /> v3.1 released. <a href='#'>Learn more</a></b></button>
-                    <h2>Some title</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat minima sapiente labore consectetur nam assumenda excepturi, doloribus placeat perspiciatis neque vero a, natus aperiam ullam ipsam. Quis, sequi facere?
-                    </p>
-                </div>
+                
             </section>
             <section className="content-con">
+           
                 <div className="content-r">
-                    <button className="button"><b><BsStars /> v3.1 released. <a href='#'>Learn more</a></b></button>
+                <button className="content-button"><b><BsStars /> v3.1 released. <a href='https://github.com/ohmiler/react-landing-page/blob/main/src/components/Content.css'>Learn more</a></b></button>
+
                     <h2>Some title</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat minima sapiente labore consectetur nam assumenda excepturi, doloribus placeat perspiciatis neque vero a, natus aperiam ullam ipsam. Quis, sequi facere?
