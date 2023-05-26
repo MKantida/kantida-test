@@ -22,6 +22,7 @@ function Header() {
                             <li className="menu-link" onClick={closeMobileMenu}>
                                 <a href='#'><b>About</b></a>
                             </li>
+                            
                             <li className="menu-link" onClick={closeMobileMenu}>
                                 <a href='#'><b>Pricing</b></a>
                             </li>
