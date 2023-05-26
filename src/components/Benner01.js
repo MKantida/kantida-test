@@ -8,10 +8,13 @@ import { BsStars } from "react-icons/bs"
 
 function Benner01() {
     return (
-        <div className="benner">
-                <img src={bg} alt="bg"className='bg'/>
 
-                <div className='benner-bg'>   
+            
+            <div className="benner">
+            {<img src={bg} alt="bg"className='bg'/>}
+
+                <div className='benner-bg'>
+
                     <section className="benner-con">
 
                         <div className="benner-r">
@@ -30,8 +33,8 @@ function Benner01() {
                             
             </section>
             </div>
-            
-        </div>
+            </div>
+        
 
     )
 }
