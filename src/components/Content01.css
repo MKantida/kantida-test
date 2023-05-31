@@ -15,7 +15,7 @@
     padding: 5rem 0;
 }
 .content-l img {
-    width: 100%;
+    max-width: 20vw;
     border-radius: 10px;
 }
 .content-r {

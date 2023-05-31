@@ -8,11 +8,12 @@ import { BsStars } from "react-icons/bs"
 
 function Benner01() {
     return (
-
-            
             <div className="benner">
-                {<img src={bg} alt="bg"className='bg'/>}
-                    <section className="benner-con">
+                
+{/*<div style={{ backgroundImage: `url(${bg})` }} className="bg"></div>*/}
+
+                <div className='benner-bg'>
+                    <section className="benner-con"  >
 
                         <div className="benner-r">
                                 <button className="button"><b><BsStars /> v3.1 released. <a href='https://github.com/ohmiler/react-landing-page/blob/main/src/components/Content.css'>Learn more</a></b></button>
@@ -27,7 +28,8 @@ function Benner01() {
                                 <img src={image} alt="image"/>
                             </div>
                     </section>
-        
+                    </div>
+                    {<img src={bg} alt="bg" className="bg" />}
             </div>
         
 
