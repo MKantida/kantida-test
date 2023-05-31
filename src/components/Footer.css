@@ -1,15 +1,24 @@
 .footer {
-    background: #e0f4fa;
+
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    max-width: 100vw;
+
+    background-color: rgb(78, 104, 252) ;
 
 }
 .footer-con {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(78, 252, 130) ;
+}
+
+.footer-con:first-child, .footer-con:last-child {
+  padding: 2rem 0;
 }
 
 .footer-footer p {

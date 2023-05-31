@@ -11,10 +11,7 @@ function Benner01() {
 
             
             <div className="benner">
-            {<img src={bg} alt="bg"className='bg'/>}
-
-                <div className='benner-bg'>
-
+                {<img src={bg} alt="bg"className='bg'/>}
                     <section className="benner-con">
 
                         <div className="benner-r">
@@ -29,10 +26,8 @@ function Benner01() {
                             <div className="benner-l">
                                 <img src={image} alt="image"/>
                             </div>
-
-                            
-            </section>
-            </div>
+                    </section>
+        
             </div>
         
 
