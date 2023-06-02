@@ -1,0 +1,73 @@
+.LoginForm {
+    max-width: 100vw;
+    margin: 0 auto;
+    background-color: rgb(78, 104, 252) ;
+}
+.LoginForm-con {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: 0 auto;
+    background-color: rgb(252, 78, 229) ;
+    
+}
+.LoginForm-con:first-child, .LoginForm-con:last-child {
+    padding: 5rem 0;
+}
+.LoginForm-l {
+    max-width: 40vw;
+    margin: 30px;
+    background-color: rgb(252, 191, 78) ;
+    text-align: center;
+}
+.LoginForm-r {
+    max-width: 40vw;
+    padding: 2rem;
+    text-align: center;
+}
+.LoginForm-form  {
+    max-width: 40vw;
+    margin: 30px;
+    background-color: rgb(107, 252, 78) ;
+}
+
+.LoginForm-form input  {
+    width: 80%;
+    height: 25px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #5f0096;
+    padding: 5px 20px;
+    background-color: rgb(240, 252, 78) ;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.LoginForm-button  {
+    width: 80%;
+    height: 30px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #5f0096;
+    padding: 5px 20px;
+    background-color: rgb(240, 252, 78) ;
+}
+
+@media screen and (max-width: 480px) {
+    .LoginForm-con {
+        flex-direction: column;
+    }
+    .LoginForm-con:nth-child(2) .LoginForm-r {
+        order: 1;
+    }
+}

@@ -66,5 +66,8 @@
         flex-direction: column;
         
     }
-
+    .Content02-con:nth-child(2) .Content02-r {
+        order: 1;
+    }
 }
+
