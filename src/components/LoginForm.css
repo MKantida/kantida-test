@@ -70,4 +70,7 @@
     .LoginForm-con:nth-child(2) .LoginForm-r {
         order: 1;
     }
+    .LoginForm-form input  {
+        flex-direction: column;
+    }
 }
