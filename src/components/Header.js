@@ -39,7 +39,7 @@ function Header() {
                             </li>
                         </ul>
                         <div className="mobile-menu" onClick={handleClick}>
-                        {click ? (
+                        {click ? ( 
                             <FiX />
                         ) : (
                             <FiMenu />
